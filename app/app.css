@@ -1,15 +1,16 @@
-@import "tailwindcss";
-
-@theme {
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+html {
+  background-color: aqua;
 }
 
-html,
-body {
-  @apply bg-white dark:bg-gray-950;
-
-  @media (prefers-color-scheme: dark) {
-    color-scheme: dark;
-  }
+.header {
+  text-align: center;
 }
+
+.header h1 {
+  font-family: sans-serif;
+  color: rgb(10, 10, 10);
+  font-weight: 400;
+  font-size: 48px;
+  color: #95cc50;
+}
+
