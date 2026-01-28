@@ -1,5 +1,4 @@
 export function Welcome() {
-
   return (
     <>
       <div className="header">
@@ -7,8 +6,21 @@ export function Welcome() {
           Rick and Morty
         </h1>
       </div>
-      <div>
-        
+      <div className="personagens">
+        <div className="personagem">
+          <img 
+            src="https://rickandmortyapi.com/api/character/avatar/1.jpeg" 
+          />
+          <p>
+            Rick Sanchez
+          </p>
+          <p>
+            Human
+          </p>
+          <span>
+            Alive
+          </span>
+        </div>
       </div>
     </>
   );
